@@ -1,15 +1,9 @@
-// Vehicle and Car are both Function objects.
-Vehicle = require("./vehicle");
-Car = require("./car");
-
-defaultCar = new Car();
-console.log(defaultCar);
-
-redCorvette = new Car({ color: "red", type: "Corvette" });
-console.log(redCorvette);
-
-greenDucatti = new Vehicle({ color: "green", wheels: 2 });
-console.log(greenDucatti);
-
-blueTruck = new Vehicle({ color: "blue", wheels: 18 });
-console.log(blueTruck);
+// Creating a in a given scope allows you to initialize a new object using the
+// `new` keyword.
+module.exports =
+   // Defining a "class" is simply defining a named function that returns an
+   // object.
+   function Person(firstName, lastName) {
+      this.firstName = firstName;
+      this.lastName = lastName;
+   }
