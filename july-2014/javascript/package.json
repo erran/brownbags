@@ -1,0 +1,13 @@
+{
+  "name": "brownbags",
+  "description": "Dependencies for my July 2014 JS brown bag.",
+  "private": true,
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erran/brownbags"
+  },
+  "devDependencies": {
+    "lodash": "~2.4.1"
+  }
+}
