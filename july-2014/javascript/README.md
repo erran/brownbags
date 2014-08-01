@@ -1,6 +1,7 @@
 # JavaScript
 ## Resources
 1. [Mozilla's Intro to Object-Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+2. [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures)
 
 ## Classes
 Classes *do not* exist. See [Functions](#functions) and [Objects](#objects).
@@ -38,6 +39,19 @@ var divide = function divide(x, y) {
 }
 
 divide(42, 0)
+```
+
+```javascript
+function say (phrase) { 
+  // A closure is any function that is defined inside of another function.
+  myClosure = function () {
+    console.log(phrase);
+  }
+
+  myClosure();
+}
+
+say("Everything is awesome!"); // logs "Everything is awesome!"
 ```
 
 ### Undefined
