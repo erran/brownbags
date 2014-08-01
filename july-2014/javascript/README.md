@@ -1,4 +1,7 @@
 # JavaScript
+## Resources
+1. [Mozilla's Intro to Object-Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
+
 ## Classes
 Classes *do not* exist. See [Functions](#functions) and [Objects](#objects).
 
