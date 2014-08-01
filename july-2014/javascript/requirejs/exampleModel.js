@@ -2,9 +2,9 @@ define = require('./define'); // This simulates using the RequireJS define metho
 
 module.exports = // ControlsInsight uses RequireJS so module exports are implicit
    define(['./mimickedBackboneModel', 'lodash'], function(MimickedBackboneModel, _) {
-      var SubclassModel = MimickedBackboneModel.extend({
+      var ExampleModel = MimickedBackboneModel.extend({
          url: '/api/threats'
       });
 
-      return SubclassModel;
+      return ExampleModel;
    });
