@@ -2,6 +2,9 @@
 ## Resources
 1. [Mozilla's Intro to Object-Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
 2. [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures)
+3. [Learn X in Y minutes; Where X = JavaScript](http://learnxinyminutes.com/docs/javascript/)
+4. [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden/)
+5. [Learn JavaScript](http://ejohn.org/apps/learn/)
 
 ## Classes
 Classes *do not* exist. See [Functions](#functions) and [Objects](#objects).
